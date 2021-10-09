@@ -598,8 +598,8 @@ if(false) {}
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-__webpack_require__(/*! C:\Users\Julien\Documents\netflixAngular\netflix\src\styles.css */"./src/styles.css");
-module.exports = __webpack_require__(/*! C:\Users\Julien\Documents\netflixAngular\netflix\node_modules\bootstrap\dist\css\bootstrap.min.css */"./node_modules/bootstrap/dist/css/bootstrap.min.css");
+__webpack_require__(/*! C:\Users\Julien\Documents\pmg-mediaAngular\pmg-media\src\styles.css */"./src/styles.css");
+module.exports = __webpack_require__(/*! C:\Users\Julien\Documents\pmg-mediaAngular\pmg-media\node_modules\bootstrap\dist\css\bootstrap.min.css */"./node_modules/bootstrap/dist/css/bootstrap.min.css");
 
 
 /***/ })

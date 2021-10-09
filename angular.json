@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "netflix": {
+    "pmg-media": {
       "projectType": "application",
       "schematics": {},
       "root": "",
@@ -13,7 +13,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
-            "outputPath": "dist/netflix",
+            "outputPath": "dist/pmg-media",
             "index": "src/index.html",
             "main": "src/main.ts",
             "polyfills": "src/polyfills.ts",
@@ -64,18 +64,18 @@
         "serve": {
           "builder": "@angular-devkit/build-angular:dev-server",
           "options": {
-            "browserTarget": "netflix:build"
+            "browserTarget": "pmg-media:build"
           },
           "configurations": {
             "production": {
-              "browserTarget": "netflix:build:production"
+              "browserTarget": "pmg-media:build:production"
             }
           }
         },
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "netflix:build"
+            "browserTarget": "pmg-media:build"
           }
         },
         "test": {
@@ -112,15 +112,15 @@
           "builder": "@angular-devkit/build-angular:protractor",
           "options": {
             "protractorConfig": "e2e/protractor.conf.js",
-            "devServerTarget": "netflix:serve"
+            "devServerTarget": "pmg-media:serve"
           },
           "configurations": {
             "production": {
-              "devServerTarget": "netflix:serve:production"
+              "devServerTarget": "pmg-media:serve:production"
             }
           }
         }
       }
     }},
-  "defaultProject": "netflix"
+  "defaultProject": "pmg-media"
 }
