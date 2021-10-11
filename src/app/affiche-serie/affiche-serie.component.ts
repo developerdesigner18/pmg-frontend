@@ -4,7 +4,7 @@ import { SerieService } from '../serie.service';
 @Component({
   selector: 'app-affiche-serie',
   templateUrl: './affiche-serie.component.html',
-  styleUrls: ['./affiche-serie.component.css']
+  styleUrls: ['./affiche-serie.component.scss']
 })
 export class AfficheSerieComponent implements OnInit {
 

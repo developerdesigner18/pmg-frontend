@@ -11,6 +11,8 @@ import { DetailFilmComponent } from './detail-film/detail-film.component';
 import { DetailSerieComponent } from './detail-serie/detail-serie.component';
 import { SearchComponent } from './search/search.component';
 import { FormsModule } from '@angular/forms';
+import { LoginComponent } from './login/login.component';
+import { RegisterComponent } from './register/register.component';
 
 
 @NgModule({
@@ -22,7 +24,9 @@ import { FormsModule } from '@angular/forms';
     HomeComponent,
     DetailFilmComponent,
     DetailSerieComponent,
-    SearchComponent
+    SearchComponent,
+    LoginComponent,
+    RegisterComponent
   ],
   imports: [
     BrowserModule,

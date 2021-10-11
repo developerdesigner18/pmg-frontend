@@ -5,7 +5,7 @@ import { FilmService } from '../film.service';
 @Component({
   selector: 'app-detail-film',
   templateUrl: './detail-film.component.html',
-  styleUrls: ['./detail-film.component.css']
+  styleUrls: ['./detail-film.component.scss']
 })
 export class DetailFilmComponent implements OnInit {
 

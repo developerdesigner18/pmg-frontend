@@ -5,7 +5,7 @@ import { SerieService } from '../serie.service';
 @Component({
   selector: 'app-detail-serie',
   templateUrl: './detail-serie.component.html',
-  styleUrls: ['./detail-serie.component.css']
+  styleUrls: ['./detail-serie.component.scss']
 })
 export class DetailSerieComponent implements OnInit {
 

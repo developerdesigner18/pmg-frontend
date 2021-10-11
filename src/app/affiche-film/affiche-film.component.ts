@@ -4,7 +4,7 @@ import { FilmService } from '../film.service';
 @Component({
   selector: 'app-affiche-film',
   templateUrl: './affiche-film.component.html',
-  styleUrls: ['./affiche-film.component.css']
+  styleUrls: ['./affiche-film.component.scss']
 })
 export class AfficheFilmComponent implements OnInit {
 
