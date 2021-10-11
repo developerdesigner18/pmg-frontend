@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { TrendingService } from '../trending.service';
+import { TrendingService } from 'src/app/services/trending.service';
 
 
 @Component({

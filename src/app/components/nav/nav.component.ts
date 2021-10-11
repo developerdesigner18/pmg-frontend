@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { RouterModule, Router, ActivatedRoute } from '@angular/router';
-import { SearchService } from '../search.service';
+import { SearchService } from 'src/app/services/search.service';
 
 @Component({
   selector: 'app-nav',

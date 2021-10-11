@@ -1,11 +1,12 @@
 import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
-import { HomeComponent } from './home/home.component';
-import { AfficheFilmComponent } from './affiche-film/affiche-film.component';
-import { AfficheSerieComponent } from './affiche-serie/affiche-serie.component';
-import { DetailFilmComponent } from './detail-film/detail-film.component';
-import { DetailSerieComponent } from './detail-serie/detail-serie.component';
-import { SearchComponent } from './search/search.component';
+
+import { AfficheFilmComponent } from './components/affiche-film/affiche-film.component';
+import { AfficheSerieComponent } from './components/affiche-serie/affiche-serie.component';
+import { DetailFilmComponent } from './components/detail-film/detail-film.component';
+import { DetailSerieComponent } from './components/detail-serie/detail-serie.component';
+import { HomeComponent } from './components/home/home.component';
+import { SearchComponent } from './components/search/search.component';
 
 
 const routes: Routes = [

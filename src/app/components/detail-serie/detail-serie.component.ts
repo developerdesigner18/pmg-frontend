@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { ActivatedRoute } from '@angular/router';
-import { SerieService } from '../serie.service';
+import { SerieService } from 'src/app/services/serie.service';
 
 @Component({
   selector: 'app-detail-serie',

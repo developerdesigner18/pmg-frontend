@@ -1,7 +1,7 @@
 import { Component, OnInit, Input } from '@angular/core';
-import { SearchService } from '../search.service';
 import { ActivatedRoute } from '@angular/router';
 import { find } from 'rxjs/operators';
+import { SearchService } from 'src/app/services/search.service';
 
 @Component({
   selector: 'app-search',
