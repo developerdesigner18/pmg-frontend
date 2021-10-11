@@ -21,6 +21,7 @@ import { LoginComponent } from './components/login/login.component';
 import { RegisterComponent } from './components/register/register.component';
 import { SearchComponent } from './components/search/search.component';
 import { SliderComponent } from './components/slider/slider.component';
+import { FooterComponent } from './components/footer/footer.component';
 
 
 @NgModule({
@@ -37,6 +38,7 @@ import { SliderComponent } from './components/slider/slider.component';
     RegisterComponent,
     LandingComponent,
     SliderComponent,
+    FooterComponent,
   ],
   imports: [
     BrowserModule,
