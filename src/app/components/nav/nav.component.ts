@@ -12,12 +12,12 @@ export class NavComponent implements OnInit {
   constructor(private searchService: SearchService, private router: Router, private route: ActivatedRoute) { }
 
   onSubmit(f) {
-    console.log('param : ' + f)
-    location.reload();
-    this.router.navigate(['search/' + f.value.search])
-      .then(() => {
-        window.location.reload();
-      });
+    // console.log('param : ' + f)
+    // location.reload();
+    // this.router.navigate(['search/' + f.value.search])
+    //   .then(() => {
+    //     window.location.reload();
+    //   });
   }
 
   ngOnInit() {

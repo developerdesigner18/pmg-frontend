@@ -1,16 +1,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
 *{
-  margin: 0;
-  padding: 0;
+  margin: 3px;
+  padding: 3px;
   box-sizing: border-box;
-  font-family: 'Poppins',sans-serif;
+  // font-family: 'Poppins',sans-serif;
   text-decoration: none;
 }
 footer{
   width: 100%;
   bottom: 0;
   left: 0;
-  background: #111;
+  background-color: #343A40;
 }
 footer .content{
   max-width: 1350px;
@@ -28,7 +28,7 @@ footer .content .box{
   transition: all 0.4s ease;
 }
 footer .content .topic{
-  font-size: 22px;
+  font-size: 27px;
   font-weight: 600;
   color: #fff;
   margin-bottom: 16px;
@@ -43,10 +43,10 @@ footer .content .lower .topic{
 footer .content .lower i{
   padding-right: 16px;
 }
-footer .content .middle{
-  padding-left: 80px;
+footer .content .middle-box{
+  padding-left: 45px;
 }
-footer .content .middle a{
+footer .content .middle-box a{
   line-height: 32px;
 }
 footer .content .right input[type="text"]{
@@ -79,7 +79,7 @@ footer .content .right input[type="submit"]{
   color:  #eb2f06;
 }
 footer .content .media-icons a{
-  font-size: 16px;
+  font-size: 20px;
   height: 45px;
   width: 45px;
   display: inline-block;
@@ -109,7 +109,7 @@ footer a:hover{
   color: #eb2f06;
 }
 @media (max-width:1100px) {
-  footer .content .middle{
+  footer .content .middle-box{
     padding-left: 50px;
   }
 }
@@ -129,7 +129,10 @@ footer a:hover{
     width: 100%;
     margin-top: 30px;
   }
-  footer .content .middle{
+  footer .content .middle-box{
     padding-left: 0;
   }
 }
+
+
+// #343A40

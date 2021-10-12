@@ -1,12 +1,15 @@
 <div class="container">
   <div class="row" style="margin-top:20px;">
     <div class="col-sm-6">
-      <img src="https://image.tmdb.org/t/p/w500{{film.poster_path}}" class="img-fluid detail">
+      <img src="assets/images/no_preview.png" class="img-fluid detail">
     </div>
     <div class="col-sm-6 my-auto">
-        <h1>{{film.title}}</h1>
+        <!-- <h1>{{film.title}}</h1> -->
+        <h1>No Preview Image</h1>
         <span class="badge badge-genre" *ngFor="let genre of film.genres">{{genre.name}}</span>
-        <p style="margin-top:20px;">{{film.overview}}</p>
+        <!-- <p style="margin-top:20px;">{{film.overview}}</p> -->
+        <p style="margin-top:20px;">Lorem ipsum/digit</p>
     </div>
   </div>
 </div>
+
